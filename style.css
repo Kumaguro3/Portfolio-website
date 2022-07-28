@@ -5,8 +5,27 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
-.navbar {
+.navbar-custom {
+  color: white;
   background-color: #f6c4e4;
+  margin-bottom: 50px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: white;
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: white;
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: white;
+}
+a {
+  color: white;
 }
 
 body {
