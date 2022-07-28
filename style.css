@@ -12,7 +12,7 @@
 }
 
 .navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
+.navbar-custom .navbar-text .a {
   color: white;
 }
 /* change the link color */
@@ -22,9 +22,6 @@
 /* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-  color: white;
-}
-a {
   color: white;
 }
 
@@ -162,6 +159,6 @@ a {
   display: block;
   margin: 20px auto;
   padding: 2px;
-  border-radius: 100%;
+  border-radius: 20%;
   border: 10px solid white;
 }
