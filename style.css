@@ -109,3 +109,7 @@ p {
 .lorem {
   background-color: white;
 }
+
+a {
+  text-align: center;
+}
