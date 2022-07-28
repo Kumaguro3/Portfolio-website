@@ -12,9 +12,10 @@
 body {
   margin: 60px auto;
   max-width: 800px;
-  background-image: url("sakura-background.jpg");
+  background-image: url("sakura-background2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 h1,
@@ -142,6 +143,6 @@ a {
   display: block;
   margin: 20px auto;
   padding: 2px;
-  border-radius: 50px;
-  box-shadow: 2px 10px 10px 2px rgb(74, 74, 74);
+  border-radius: 100%;
+  border: 10px solid white;
 }
