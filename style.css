@@ -7,7 +7,6 @@
 }
 
 /*navbar*/
-
 .navbar-custom {
   color: white;
   background-color: rgb(23, 23, 23);
@@ -69,6 +68,10 @@ p {
   text-align: center;
 }
 
+.lorem {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -94,7 +97,6 @@ p {
 }
 
 /*buttons*/
-
 .btn {
   margin-top: 2px;
   border-radius: 4px;
@@ -131,6 +133,7 @@ p {
   background-color: var(--third-color);
 }
 
+/*links*/
 .homepage-link {
   color: var(--primary-color);
   text-align: center;
@@ -147,10 +150,6 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
-}
-
-.lorem {
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 a {
