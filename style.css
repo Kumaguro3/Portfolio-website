@@ -180,10 +180,10 @@ a {
   justify-content: center;
 }
 
-.container {
+.container-code {
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
-  width: 500px;
+  width: 540px;
   padding: 20px;
   border-radius: 4px;
   text-align: center;
