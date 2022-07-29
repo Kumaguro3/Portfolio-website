@@ -149,3 +149,18 @@ p {
 a {
   text-align: center;
 }
+
+.weatherapp {
+  height: 450px;
+  width: 400px;
+}
+
+.weatherapp-btn,
+.portofolio-btn {
+  text-align: center;
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
