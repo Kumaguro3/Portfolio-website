@@ -150,41 +150,37 @@ a {
   text-align: center;
 }
 
+/*images*/
 .weatherapp {
   height: 450px;
   width: 400px;
 }
 
+.container-code {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 550px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
 .coding {
   height: 200px;
   width: 400px;
-  justify-content: center;
   margin: 0 auto;
 }
 
 .bootstrap {
   height: 290px;
   width: 200px;
-  justify-content: center;
 }
 
 .react {
   height: 150px;
   width: 130px;
-  justify-content: center;
 }
 
 .seo {
   height: 150px;
   width: 150px;
-  justify-content: center;
-}
-
-.container-code {
-  display: block;
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 540px;
-  padding: 20px;
-  border-radius: 4px;
-  text-align: center;
 }
