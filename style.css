@@ -1,13 +1,15 @@
 :root {
   --primary-color: #f5a9d8;
+  --white-color: white;
   --secondary-color: #f5f2fe;
   --third-color: #f6c4e4;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+/*navbar*/
 .navbar-custom {
   color: white;
-  background-color: #f6c4e4;
+  background-color: rgb(23, 23, 23);
   margin-bottom: 50px;
 }
 
@@ -25,6 +27,7 @@
   color: white;
 }
 
+/*body*/
 body {
   margin: 60px auto;
   max-width: 800px;
@@ -79,20 +82,28 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link,
+.work-link,
 .btn {
-  background: var(--primary-color);
+  background: var(--white-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: black;
   border: var(--primary-color);
 }
 
-.contact-link:hover {
-  color: #f5f2fe;
-  background-color: #f6c4e4;
+.work-link:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
 }
+
+.about-link {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--white-color);
+}
+
 .about-link:hover {
-  color: #f6c4e4;
+  color: var(--white-color);
+  background-color: var(--third-color);
 }
 
 .btn {
@@ -105,11 +116,6 @@ p {
 
 .btn:hover {
   background-color: var(--third-color);
-}
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
