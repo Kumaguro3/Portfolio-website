@@ -1,7 +1,6 @@
 :root {
   --primary-color: #f5a9d8;
   --white-color: white;
-  --secondary-color: #f5f2fe;
   --third-color: #f6c4e4;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -43,7 +42,7 @@ h3,
 p {
   text-align: center;
   margin: 0;
-  color: white;
+  color: var(--white-color);
 }
 
 h1 {
@@ -56,14 +55,14 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 p {
-  background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
+  font-weight: 500;
   line-height: 1.5;
   text-align: center;
 }
@@ -133,13 +132,7 @@ p {
   background-color: var(--third-color);
 }
 
-/*links*/
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
+/* email link*/
 .email-link {
   display: flex;
   justify-content: center;
