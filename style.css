@@ -36,12 +36,15 @@ body {
   background-size: cover;
 }
 
+h1 {
+  margin-top: 90px;
+}
+
 h1,
 h2,
 h3,
 p {
   text-align: center;
-  margin: 0;
   color: var(--white-color);
 }
 
@@ -167,6 +170,12 @@ a {
   border-radius: 4px;
 }
 
+.container-contact {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  margin-top: 30px;
+}
+
 .coding {
   height: 200px;
   width: 400px;
@@ -186,4 +195,17 @@ a {
 .seo {
   height: 150px;
   width: 150px;
+}
+
+.github-icon,
+.linkedin-icon,
+.email-icon {
+  width: 100px;
+  justify-content: center;
+  border: 0 none;
+  margin: 5px;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
 }
