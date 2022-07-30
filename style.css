@@ -74,6 +74,7 @@ p {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+/*containers*/
 .about-paragraphs {
   display: flex;
   margin: 30px 0;
@@ -81,6 +82,20 @@ p {
 
 .about-paragraphs p {
   margin: 10px;
+}
+
+.container-code {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 550px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.container-contact {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  margin-top: 30px;
 }
 
 /*nav links*/
@@ -162,20 +177,6 @@ a {
   border: 2px solid white;
 }
 
-.container-code {
-  display: block;
-  background-color: rgba(255, 255, 255, 0.5);
-  max-width: 550px;
-  padding: 20px;
-  border-radius: 4px;
-}
-
-.container-contact {
-  background-color: rgba(255, 255, 255, 0.5);
-  width: 400px;
-  margin-top: 30px;
-}
-
 .coding {
   height: 200px;
   width: 400px;
@@ -208,4 +209,11 @@ a {
   height: auto;
   max-width: 100%;
   vertical-align: middle;
+}
+
+.profile-picture {
+  width: 300px;
+  margin: 20px;
+  border: 2px solid white;
+  border-radius: 100%;
 }
