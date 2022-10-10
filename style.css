@@ -90,8 +90,8 @@ p {
 .container-code {
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
-  max-width: 600px;
-  padding: 20px;
+  max-width: 500px;
+  padding: 20px auto;
   border-radius: 4px;
   justify-content: center;
 }
@@ -190,7 +190,7 @@ a {
 .coding {
   height: 200px;
   width: 350px;
-  margin: 20px auto;
+  margin: 15px auto;
 }
 
 .bootstrap {
@@ -200,14 +200,16 @@ a {
 
 .react {
   height: 150px;
-  width: 110px;
+  width: 130px;
   margin-left: 20px;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
 .seo {
   height: 150px;
   width: 150px;
+  margin: 10px auto;
 }
 
 .github-icon,
