@@ -10,6 +10,7 @@
   color: white;
   background-color: rgb(23, 23, 23);
   margin-bottom: 50px;
+  display: block;
 }
 
 .navbar-custom .navbar-brand,
@@ -29,6 +30,7 @@
 /*body*/
 body {
   margin: 60px auto;
+  min-width: 280px;
   max-width: 800px;
   background-image: url("koi.jpg");
   background-repeat: no-repeat;
@@ -88,9 +90,10 @@ p {
 .container-code {
   display: block;
   background-color: rgba(255, 255, 255, 0.5);
-  max-width: 550px;
+  max-width: 600px;
   padding: 20px;
   border-radius: 4px;
+  justify-content: center;
 }
 
 .container-contact {
@@ -186,8 +189,8 @@ a {
 
 .coding {
   height: 200px;
-  width: 400px;
-  margin: 0 auto;
+  width: 350px;
+  margin: 20px auto;
 }
 
 .bootstrap {
@@ -197,7 +200,9 @@ a {
 
 .react {
   height: 150px;
-  width: 130px;
+  width: 110px;
+  margin-left: 20px;
+  padding: 5px;
 }
 
 .seo {
