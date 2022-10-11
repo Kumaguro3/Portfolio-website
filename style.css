@@ -81,6 +81,10 @@ p {
 
 /*containers*/
 
+.container {
+  margin: 30px auto;
+}
+
 .col-12 {
   display: block;
   margin: 30px auto;
@@ -194,12 +198,15 @@ a {
 }
 
 /*images*/
-.weatherapp,
-.portfolio,
-.programmer-image {
+.weatherapp-image,
+.portfolio-image,
+.weatherapp-react-image,
+.dictionary-image {
   height: 450px;
   width: 400px;
-  border: 2px solid white;
+  border: 3px solid white;
+  margin: 30px auto;
+  justify-content: center;
 }
 
 .coding {
