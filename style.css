@@ -77,6 +77,9 @@ p {
 
 .lorem {
   background-color: rgba(76, 74, 74, 0.7);
+  padding: 30px;
+  margin: 30px auto;
+  gap: 20px;
 }
 
 /*containers*/
@@ -198,10 +201,10 @@ a {
 }
 
 /*images*/
-.weatherapp-image,
 .portfolio-image,
 .weatherapp-react-image,
-.dictionary-image {
+.dictionary-image,
+.todo-list-image {
   height: 450px;
   width: 400px;
   border: 3px solid white;
