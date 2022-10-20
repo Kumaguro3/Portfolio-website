@@ -240,6 +240,13 @@ a {
   margin: 10px auto;
 }
 
+.tailwind {
+  height: 120px;
+  width: 120px;
+  margin: 5px auto;
+  padding: 5px;
+}
+
 .github-icon,
 .linkedin-icon,
 .email-icon {
