@@ -206,7 +206,8 @@ a {
 .portfolio-image,
 .weatherapp-react-image,
 .dictionary-image,
-.todo-list-image {
+.todo-list-image,
+.travel-website-image {
   height: 450px;
   width: 400px;
   border: 3px solid white;
