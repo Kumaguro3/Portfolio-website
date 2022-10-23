@@ -232,13 +232,16 @@ a {
 
 .bootstrap {
   height: 150px;
-  width: 130px;
+  width: 135px;
 }
 
 .tailwind {
+  background-color: white;
+  border-radius: 20%;
   padding: 15px;
-  height: 130px;
-  width: 130px;
+  margin-right: 15px;
+  height: 112px;
+  width: 120px;
 }
 
 .frameworks-icons {
