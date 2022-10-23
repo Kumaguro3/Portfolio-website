@@ -215,36 +215,49 @@ a {
   justify-content: center;
 }
 
+.marke-up-icons {
+  margin: 30px auto;
+  padding: 5px;
+}
+
 .coding {
-  height: 200px;
+  height: 170px;
   width: 350px;
   margin: 15px auto;
 }
 
+.css-icons {
+  margin-bottom: 30px;
+}
+
 .bootstrap {
-  height: 290px;
-  width: 200px;
+  height: 150px;
+  width: 130px;
+}
+
+.tailwind {
+  padding: 15px;
+  height: 130px;
+  width: 130px;
+}
+
+.frameworks-icons {
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
 .react {
   height: 150px;
   width: 130px;
-  margin-left: 20px;
+  margin-left: 10px;
   padding: 5px;
-  margin-bottom: 20px;
 }
 
-.seo {
-  height: 150px;
-  width: 150px;
-  margin: 10px auto;
-}
-
-.tailwind {
-  height: 120px;
-  width: 120px;
-  margin: 5px auto;
-  padding: 5px;
+.typescript {
+  width: 110px;
+  margin: 20px;
+  padding: 5px auto;
+  border-radius: 20%;
 }
 
 .github-icon,
